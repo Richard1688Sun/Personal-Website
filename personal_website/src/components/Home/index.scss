@@ -12,35 +12,12 @@
     }
 
     h1 {
-        color: #fff;
+        color: $title-base-color;
         font-size: 56px;
         line-height: 53px;
         margin: 0;
         font-family: 'Coolvetica';
         font-weight: 400;
-    
-        &:before {
-          content: '<h1>';
-          font-family: 'La Belle Aurore', cursive;
-          color: $interact-color;
-          font-size: 18px;
-          position: absolute;
-          margin-top: -40px;
-          left: -15px;
-          opacity: 0.6;
-        }
-    
-        &:after {
-          content: '<h1/>';
-          font-family: 'La Belle Aurore', cursive;
-          color: $interact-color;
-          font-size: 18px;
-          position: absolute;
-          margin-top: 18px;
-          margin-left: 20px;
-          animation: fadeIn 1s 1.7s backwards;
-          opacity: 0.6;
-        }
     
         img {
           margin-left: 20px;
@@ -53,7 +30,7 @@
     }
 
     h2 {
-        color: #8d8d8d;
+        color: $subtitle-base-color;
         margin-top: 20px;
         font-weight: 400;
         font-size: 11px;
@@ -78,7 +55,7 @@
     
         &:hover {
           background: $interact-color;
-          color: #333;
+          color: $text-base-color;
         }
     }
 }

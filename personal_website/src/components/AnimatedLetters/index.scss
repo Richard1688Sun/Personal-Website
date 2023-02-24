@@ -30,21 +30,8 @@
     color: $interact-color;
     animation: rubberBand 1s;
     animation-iteration-count: infinite;
-    // animation-play-state: running;
   }
 }
-
-// .text-animate-hover-cont {
-//   min-width: 10px;
-//   display: inline-block;
-//   animation-fill-mode: both;
-
-//   &:hover {
-//       animation: rubberBand 1s;
-//       color: #ffd700;
-//       animation-play-state: running;
-//   }
-// }
   
   @for $i from 1 through 41 {
     .text-animate._#{$i} {

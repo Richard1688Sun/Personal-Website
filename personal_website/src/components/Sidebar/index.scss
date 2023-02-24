@@ -1,5 +1,7 @@
+@import "../../assets/constants/colors.scss";
+
 .nav-bar{
-    background: #181818;
+    background: $sidebar-color;
     width: 60px;
     height: 100%;
     position: absolute;
@@ -44,9 +46,13 @@
             i {
                 transition: all 0.3s ease-out;
             }
+
+            svg {
+              color: $text-hint-color;
+            }
         
             &:hover {
-                color: #ffd700;
+                color: $interact-color;
         
                 svg {
                   opacity: 0;
@@ -98,7 +104,7 @@
       
         a.active {
             svg {
-              color: #ffd700;
+              color: $interact-color;
             }
         }
     }
@@ -114,17 +120,19 @@
         margin: 0;
     
         li {
+          .anchor-icon {
+            color: $text-hint-color;
+          }
             a {
                 padding: 7px 0;
                 display: block;
                 font-size: 15px;
                 line-height: 16px;
-                color: #4d4d4e;
             }
     
             &:hover {
                 .anchor-icon {
-                color: #ffd700;
+                color: $interact-color;
                 }
             }
         }

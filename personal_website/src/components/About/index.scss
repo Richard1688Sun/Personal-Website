@@ -1,3 +1,5 @@
+@import "../../assets/constants/colors.scss";
+
 .stage-cube-cont {
     width: 50%;
     height: 100%;
@@ -32,29 +34,29 @@
       box-shadow: 0 0 20px 0px lightyellow;
     }
   
-    #face1 {
+    #face1 { //JAVA
       transform: translateZ(100px);
-      color: #dd0031;
+      color: #f89820;
     }
-    #face2 {
+    #face2 { //ANDROID
       transform: rotateY(90deg) translateZ(100px);
-      color: #f06529;
+      color: #3DDC84;
     }
-    #face3 {
+    #face3 { //PYTHON
       transform: rotateY(90deg) rotateX(90deg) translateZ(100px);
-      color: #28a4d9;
+      color: #4584b6;
     }
-    #face4 {
+    #face4 { // REACT
       transform: rotateY(180deg) rotateZ(90deg) translateZ(100px);
-      color: #5ed4f4;
+      color: #5ED4F4;
     }
-    #face5 {
+    #face5 { //JS
       transform: rotateY(-90deg) rotateZ(90deg) translateZ(100px);
-      color: #efd81d;
+      color: #EFD81D;
     }
-    #face6 {
+    #face6 { //GITHUB
       transform: rotateX(-90deg) translateZ(100px);
-      color: #ec4d28;
+      color: #333;
     }
   }
   
