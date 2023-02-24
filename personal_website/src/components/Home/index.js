@@ -1,4 +1,4 @@
-import LogoTitle from '../../assets/images/logo-s.png';
+import LogoTitle from '../../assets/images/logo-r.png';
 import { Link } from 'react-router-dom';
 import './index.scss';
 import { useState, useEffect } from 'react';
@@ -10,7 +10,7 @@ const Home = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
     const greet1Array = ['H', 'i', ',']
     const greet2Array = ['I', '\'', 'm']
-    const nameArray = ['R', 'i', 'c', 'h', 'a', 'r', 'd']
+    const nameArray = ['i', 'c', 'h', 'a', 'r', 'd']
     const titleArray = ['C', 'o', 'm', 'p', 'u', 't', 'e', 'r', ' ', 'E', 'n', 'g', 'i', 'n', 'e', 'e', 'r', '.'] 
     useEffect(() => {
         setTimeout(() => {
