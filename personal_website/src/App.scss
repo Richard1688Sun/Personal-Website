@@ -1,4 +1,7 @@
+$primary-color: #66fcf1;
+
 @import 'animate.css';
+@import "./assets/constants/colors.scss";
 @import '~loaders.css/src/animations/pacman.scss';
 
 @font-face {
@@ -37,4 +40,5 @@ textarea {
   height: 50px;
   animation: fadeOut 1s 1s;
   animation-fill-mode: forwards;
+  color: $interact-color;
 }
